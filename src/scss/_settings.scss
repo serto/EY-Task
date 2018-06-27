@@ -1,0 +1,18 @@
+
+//colors 
+
+$c-primary: #1c2852;
+$c-bodyColor: #b6b6b6;
+$c-orange: #dbaa46;
+
+$c-bodyColorDark: darken($c-bodyColor, 20%);
+
+$c-white: #ffffff;
+
+
+
+//breakpoints
+$view-mobile: 325px;
+$view-tablet: 768px;
+$view-desktop: 980px;
+

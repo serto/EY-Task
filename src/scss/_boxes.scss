@@ -1,0 +1,49 @@
+
+
+.boxBig {
+
+  -webkit-box-shadow: 0 0 15px 2px rgba(158,158,158,1);
+  -moz-box-shadow: 0 0 15px 2px rgba(158,158,158,1);
+  box-shadow: 0 0 15px 2px rgba(158,158,158,1);
+  cursor: pointer;
+  flex: 0 0 100%;
+  margin: 0 0 12px;
+  position: relative;
+
+  @media screen and (min-width: $view-tablet) {
+    flex: 0 0 32%;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &-links {
+    background-color: $c-white;
+    padding: 18px 2%;
+    position: relative;
+    width: 96%;
+  }
+}
+
+.boxSmall {
+
+  -webkit-box-shadow: 0 0 15px 2px rgba(158,158,158,1);
+  -moz-box-shadow: 0 0 15px 2px rgba(158,158,158,1);
+  box-shadow: 0 0 15px 2px rgba(158,158,158,1);
+  flex: 0 0 100%;
+  margin: 0 0 12px;
+  position: relative;
+
+  @media screen and (min-width: $view-tablet) {
+    flex: 0 0 24%;
+  }
+
+  &-title {
+    background-color: rgba(219, 170, 70, 0.8);
+    bottom: 0;
+    padding: 18px 3%;
+    position: absolute;
+    width: 94%;
+  }
+}

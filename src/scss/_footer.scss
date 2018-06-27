@@ -1,0 +1,58 @@
+
+footer {
+  background-color: $c-primary;
+  color: $c-white;
+  font-size: 10px;
+  margin-top: 48px;
+  padding: 12px 0;
+  width: 100%;
+}
+
+.footer {
+
+  &-info {
+    overflow: hidden;
+
+    &-box {
+      float: left;
+      margin-right: 28px;
+    }
+  }
+
+  &-map {
+    border-top: 1px solid $c-white;
+    margin-top: 16px;
+    overflow: hidden;
+    padding-top: 10px;
+
+    li {
+      border-right: 1px solid $c-white;
+      float: left;
+      list-style: none;
+      padding: 0 6px 4px;
+
+      &:first-child {
+        padding: 0 6px 4px 0;
+      }
+
+      &:last-child {
+        border: 0;
+      }
+    }
+
+    a {
+      color: $c-white;
+      text-decoration: none;
+
+      &:hover {
+        color: $c-white;
+        text-decoration: underline;
+      }
+
+      &:visited {
+        color: $c-white;
+      }
+
+    }
+  }
+}

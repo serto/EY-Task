@@ -1,0 +1,88 @@
+
+header {
+  margin: 55px 0 24px 0;
+  position: relative;
+  text-align: center;
+}
+
+.logoSite {
+  height: auto;
+  width: 94px;
+}
+
+.header {
+
+  &-menu {
+
+    margin-top: 16px;
+    overflow: hidden;
+    padding-top: 10px;
+
+    li {
+      border-right: 1px solid $c-bodyColor;
+      float: left;
+      list-style: none;
+      padding: 0 6px 4px;
+
+      &:last-child {
+        border: 0;
+      }
+    }
+
+    a {
+      color: $c-bodyColor;
+      text-decoration: none;
+
+      &:hover {
+        color: $c-bodyColorDark;
+        text-decoration: none;
+      }
+
+    }
+
+    &--linksSite {
+      margin: 0 auto;
+
+      @media screen and (min-width: $view-tablet) {
+        margin: 0 auto;
+        width: 698px;
+      }
+
+      li {
+        float: none;
+        border-bottom: 1px solid $c-bodyColor;
+        border-right: 0;
+        padding: 4px 6px;
+
+        @media screen and (min-width: $view-tablet) {
+          border-bottom: none;
+          border-right: 1px solid $c-bodyColor;
+          float: left;
+          padding: 0 8px;
+        }
+      }
+
+    }
+
+    &--socialLinks {
+      cursor: pointer;
+      position: absolute;
+      border-top: none;
+      margin: 0 0 0 -92px;
+      padding-top: 0;
+      top: -40px;
+      left: 50%;
+
+      @media screen and (min-width: $view-tablet) {
+        left: auto;
+        margin: 0;
+        right: 0;
+        top: 10px;
+      }
+
+      li {
+        border: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1300px;
+  position: relative;
+  width: 96%;
+}
+
+.wrapperBoxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto 24px;
+  max-width: 1140px;
+}
+
+.wrapper-fixTop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1300px;
+  position: relative;
+  width: 96%;
+}
