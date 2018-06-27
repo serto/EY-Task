@@ -35,10 +35,14 @@ h4 {
 }
 
 hr { 
-  border: 0;
-  background-color: $c-bodyColor;
-  height: 1px;
+  display: none;
 
+  @media screen and (min-width: $view-tablet) {
+    background-color: $c-bodyColor;
+    border: 0;
+    display: block;
+    height: 1px;
+  }
 }
 
 .titleSection {
@@ -72,9 +76,9 @@ i {
   padding: 14px;
   position: absolute;
   right: 15px;
-  top: 28px;
-  -webkit-transform: rotate(-45deg);  
+  top: 28px;  
   transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
 
 .bottom {
@@ -84,6 +88,6 @@ i {
   padding: 3px;
   position: relative;
   top: -3px;
-  transform: rotate(45deg);  
-  -webkit-transform: rotate(45deg); 
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
